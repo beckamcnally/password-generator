@@ -5,7 +5,9 @@
 | Technology Used         | Resource URL           | 
 | ------------- |:-------------:|  
 | Git | [https://git-scm.com/](https://git-scm.com/)     | 
-| JavaScript | [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)   [https://www.w3schools.com/js/default.asp](https://www.w3schools.com/js/default.asp)  |  [https://stackoverflow.com/](https://stackoverflow.com/)  
+| JavaScript | [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)   
+|            |  [https://www.w3schools.com/js/default.asp](https://www.w3schools.com/js/default.asp) 
+|            |  [https://stackoverflow.com/](https://stackoverflow.com/)  |
 
 ## Description 
 
