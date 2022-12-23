@@ -6,11 +6,9 @@ var lengthOption = ["8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "1
 
 var lowerOptions = ["abcdefghijklmnopqrstuvwxyz"]
 
-var upperOptions = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+var upperOptions = ["ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
 
-var specialOptions = ["!", "#", "$", "%", "&", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "{", "^", "_", "`", "{", "}", "~" ];
-
-
+var specialOptions = ["!#$%&()*+,-./:;<=>?@{^_`{}~"];
 
 var userChoices = { 
   userCharLengthSelection :"" , // number
@@ -58,11 +56,11 @@ function generatePassword(){
   passFill(); 
   
   // if (userChoices.userUpperSelection){
- 
-  for (var i =0; i < parseInt(userChoices.userCharLengthSelection); i++)   
-  var finePass = this.pass[Math.floor(Math.random() * pass.length)];
+ console.log(parseInt(userChoices.userCharLengthSelection))
+  for (var i =0; i < parseInt(userChoices.userCharLengthSelection); i++) {  
+  var finePass = this.pass[Math.floor(Math.random() * this.pass.length)];
  finePass = finePass + pass
-
+  }
 return finePass;
 }
 
@@ -122,13 +120,12 @@ function passFill() {
   if (!userChoices.userNumSelection && !userChoices.userUpperSelection && !userChoices.userLowerSelection && !userChoices.userSpecialSelection ){
     alert("please make a valid selection")
    }
-  
-console.log(pass)
+
   return pass;
-  } 
+  } // takes all the user input and translates it to a string that consists of all true choices
   
 
- // Im missing something!! if true then I need to include ... // takes gathered info (userChoices ) process it
+
 
 // function firstPrompt () {
 //  var numlength = prompt("Choose number of characters 8-128:");
@@ -155,8 +152,6 @@ console.log(pass)
 
 
 // based on the values the user has selected a password needs to be generated
-
-// once the password is generated the password needs to display in the text box provided
 
 // my input should be validate???
 
