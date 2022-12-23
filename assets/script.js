@@ -55,11 +55,11 @@ function generatePassword(){
   userInfo ();
   passFill(); 
   
-  // if (userChoices.userUpperSelection){
- console.log(parseInt(userChoices.userCharLengthSelection))
-  for (var i =0; i < parseInt(userChoices.userCharLengthSelection); i++) {  
-  var finePass = this.pass[Math.floor(Math.random() * this.pass.length)];
- finePass = finePass + pass
+ 
+  for (var i = 0; i < parseInt(userChoices.userCharLengthSelection); i++) {  
+  var ranPass = this.pass[Math.floor(Math.random() * this.pass.length)];
+ console.log(finePass)
+ finePass = finePass + ranPass
   }
 return finePass;
 }
@@ -120,7 +120,7 @@ function passFill() {
   if (!userChoices.userNumSelection && !userChoices.userUpperSelection && !userChoices.userLowerSelection && !userChoices.userSpecialSelection ){
     alert("please make a valid selection")
    }
-
+  
   return pass;
   } // takes all the user input and translates it to a string that consists of all true choices
   
