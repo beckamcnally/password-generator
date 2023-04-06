@@ -13,15 +13,28 @@
 
 [Visit the Deployed Site](https://beckamcnally.github.io/password-generator/)
 
-This site is for generating passwords. the base code was provided by Berkeley Extension Coding Bootcamp. The base code consists of the index.html, the style.css and portions of the script.gif.
+The JavaScript: Password Generator is an application that generates a random and secure password based on criteria specified by the user. The application presents a series of prompts to the user, asking for password length and character types such as uppercase, lowercase, numeric, and special characters. After validating the user input, the application generates a password that matches the selected criteria and displays it on the page.
 
 ![Site Landing Page](./assets/sitegif.gif)
 
+## Table of Contents 
+
+* [Usage](#usage)
+* [Learning Points](#learning-points)
+* [Author Info](#author-info)
+* [Credits](#credits)
+* [License](#license)
+
+## Usage
+To use the Password Generator application, [visit the Deployed Site](https://beckamcnally.github.io/password-generator/). Click the "Generate Password" button to start the password generation process. Follow the prompts and select the desired criteria for your password. Once all prompts are answered, the application will generate a password that matches the selected criteria and display it on the page.
+
 ## Learning Points 
 
-* HTML
-* CSS 
-* JavaScript
+DOM manipulation using JavaScript.
+Functions and conditional statements in JavaScript.
+Generating a random password in JavaScript.
+Input validation using JavaScript.
+Event listeners in JavaScript.
 
 ## Author Info
 
