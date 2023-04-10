@@ -48,3 +48,5 @@ Event listeners in JavaScript.
 
 Jasmine Ulloa [Github](https://github.com/silkyjazz) - Thank you for Psedocoding with me and working through the tough parts!
 
+This project was built using starter code provided by UC Berkeley Coding Bootcamp Extension. The original starter code can be found at [https://github.com/coding-boot-camp/friendly-parakeet](https://github.com/coding-boot-camp/friendly-parakeet).
+
